@@ -1,0 +1,170 @@
+.street{
+    border: 5px solid black;
+    background: linear-gradient(to top, black , rgb(44, 43, 43) , black 80% );
+    height: 141px;
+    width: 25rem;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    right: 45rem;
+}
+
+
+.yellow_line1{
+    background-color: yellow;
+    width: 8px;
+    height: 145px;
+    position: absolute;
+    right: 200px;
+
+}
+
+.yellow_line2{
+    background-color: yellow;
+    width: 8px;
+    height: 145px;
+    position: absolute;
+    right: 185px;
+
+}
+
+.white_line1{
+    background-color: rgb(255, 255, 255);
+    width: 8px;
+    height: 25px;
+    position: absolute;
+    right: 90px;
+
+}
+
+
+.white_line2{
+    background-color: rgb(255, 255, 255);
+    width: 8px;
+    height: 35px;
+    position: absolute;
+    bottom: 50px;
+    right: 90px;
+
+}
+
+
+.white_line3{
+    background-color: rgb(255, 255, 255);
+    width: 8px;
+    height: 35px;
+    position: absolute;
+    bottom: -15px;
+    right: 90px;
+
+}
+
+
+.white_line4{
+    background-color: rgb(255, 255, 255);
+    width: 8px;
+    height: 35px;
+    position: absolute;
+    right: 300px;
+
+}
+
+
+.white_line5{
+    background-color: rgb(255, 255, 255);
+    width: 8px;
+    height: 35px;
+    position: absolute;
+    bottom: -15px;
+    right: 300px;
+
+}
+
+
+.white_line6{
+    background-color: rgb(255, 255, 255);
+    width: 8px;
+    height: 35px;
+    position: absolute;
+    bottom: 50px;
+    right: 300px;
+
+}
+
+
+
+/* ===============WIND================= */
+
+.w1{
+
+
+    width: 2px;
+    height: 250px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.678), rgba(214, 187, 187, 0.455), rgba(255, 255, 255, 0.657));
+    position: absolute;
+    bottom: 100px;
+    right: 20rem;
+    transform: rotate(90deg);
+    border-bottom-left-radius: 20px;
+    border-radius: 5px;
+    animation: animation_w1 11s infinite linear;
+}
+
+@keyframes animation_w1 {
+    0%{right: 0rem;}
+    25%{right: 25rem;}
+    50%{right: 50rem;}
+    75%{right: 75rem;}
+    100%{right: 100rem;}
+    
+}
+
+.w2{
+
+
+    width: 2px;
+    height: 250px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.678), rgba(214, 187, 187, 0.455), rgba(255, 255, 255, 0.657));
+    position: absolute;
+    bottom: 80px;
+    right: 10rem;
+    transform: rotate(90deg);
+    border-bottom-left-radius: 20px;
+    border-radius: 5px;
+    animation: animation_w2 11s infinite linear;
+}
+
+@keyframes animation_w2 {
+    0%{right: -25rem;}
+    25%{right: 0rem;}
+    50%{right: 25rem;}
+    75%{right: 50rem;}
+    100%{right: 100rem;}
+    
+}
+.w3{
+
+
+    width: 2px;
+    height: 250px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.678), rgba(214, 187, 187, 0.455), rgba(255, 255, 255, 0.657));
+    position: absolute;
+    bottom: 110px;
+    right: 25rem;
+    transform: rotate(90deg);
+    border-radius: 5px 50vh 40% 99mm;
+    animation: animation_w3 11s infinite linear ;
+    
+}
+
+@keyframes animation_w3 {
+    0%{right: -15rem;}
+    25%{right: 10rem;}
+    50%{right: 35rem;}
+    75%{right: 65rem;}
+    100%{right: 100rem;}
+    
+}
+
+
+

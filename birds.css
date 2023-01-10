@@ -1,0 +1,215 @@
+/* ===================== ALL BIRDS ===================== */
+
+.bird1{
+
+    position: absolute;
+    top: 21rem;
+    right: 13.5vh;
+    animation: animation_bird1 12s infinite linear;
+}
+
+@keyframes animation_bird1 {
+    0%{ right: -1rem; top: 24rem;}
+    25%{ right: 25rem; top: 21.5rem;}
+    50%{ right: 50rem ; top: 18.2rem;}
+    75%{ right: 75rem ; top: 16rem;}
+    100%{ right: 100rem ; top: 14.8rem;}
+}
+
+
+.bird2{
+    position: absolute;
+    top:20rem;
+    right: 18vh;
+    animation: animation_bird2 12s infinite linear;
+}
+
+@keyframes animation_bird2 {
+    0%{ right: -3rem; top: 25.5rem;}
+    25%{ right: 27rem; top: 23.8.2rem;}
+    50%{ right: 52rem ; top: 21.5rem;}
+    75%{ right: 74rem ; top: 18.4rem;}
+    100%{ right: 100rem ; top: 15.8rem;}
+}
+
+.bird3{
+    position: absolute;
+    top: 19rem;
+    right: 15vh;
+    animation: animation_bird3 12s infinite linear;
+}
+
+@keyframes animation_bird3 {
+    0%{ right: -2rem; top: 26.4rem;}
+    25%{ right: 25.5rem; top: 22.2rem;}
+    50%{ right: 50.9rem ; top: 19.9rem;}
+    75%{ right: 75.9rem ; top: 17.8rem;}
+    100%{ right: 100rem ; top: 14.5rem;}
+}
+
+
+
+/* ========================BIRD 1=========================== */
+
+
+.wing1 {
+    height: 15px;
+    width: .5px;
+    border: 1px solid black;
+    background: linear-gradient(to top, black, grey, black);
+    position: absolute;
+    top: 12rem;
+    right: 0.9vh;
+    transform: rotate(60deg);
+    border-radius: 100%;
+    animation: animation_wing1 1s infinite linear;
+
+}
+
+@keyframes animation_wing1 {
+    0%{ transform: rotate(60deg);}
+    25%{ transform: rotate(80deg);}
+    50%{ transform: rotate(100deg);}
+    75%{ transform: rotate(80deg);}
+    100%{ transform: rotate(60deg);}
+}
+
+
+.wing2 {
+    height: 15px;
+    width: .5px;
+    border: 1px solid black;
+    background: linear-gradient(to top, black, grey, black);
+    position: absolute;
+    top: 12rem;
+    right: 2.6vh;
+    transform: rotate(120deg);
+    border-radius: 100%;
+    animation: animation_wing2 1s infinite linear;
+    /* border-top-right-radius: 50%;
+    border-top-left-radius:  50%;
+    border-bottom-left-radius: 20vh;
+    border-bottom-right-radius: 20vh; */
+
+}
+
+@keyframes animation_wing2 {
+    0%{ transform: rotate(120deg);}
+    25%{ transform: rotate(100deg);}
+    50%{ transform: rotate(80deg);}
+    75%{ transform: rotate(100deg);}
+    100%{ transform: rotate(120deg);}
+}
+/* 
+.bird1, .bird2, .bird3{
+    border: 1px solid black;
+    animation: animation_bird1 5s infinite linear;
+} */
+
+
+/* ========================BIRD 2=========================== */
+
+.wing3 {
+    height: 15px;
+    width: .5px;
+    border: 1px solid black;
+    background: linear-gradient(to top, black, grey, black);
+    position: absolute;
+    top: 12rem;
+    right: 0.9vh;
+    transform: rotate(60deg);
+    border-radius: 100%;
+    animation: animation_wing3 1s infinite linear;
+
+}
+
+@keyframes animation_wing3 {
+    0%{ transform: rotate(60deg);}
+    25%{ transform: rotate(80deg);}
+    50%{ transform: rotate(100deg);}
+    75%{ transform: rotate(80deg);}
+    100%{ transform: rotate(60deg);}
+}
+
+
+.wing4 {
+    height: 15px;
+    width: .5px;
+    border: 1px solid black;
+    background: linear-gradient(to top, black, grey, black);
+    position: absolute;
+    top: 12rem;
+    right: 2.6vh;
+    transform: rotate(120deg);
+    border-radius: 100%;
+    animation: animation_wing4 1s infinite linear;
+    /* border-top-right-radius: 50%;
+    border-top-left-radius:  50%;
+    border-bottom-left-radius: 20vh;
+    border-bottom-right-radius: 20vh; */
+
+}
+
+@keyframes animation_wing4 {
+    0%{ transform: rotate(120deg);}
+    25%{ transform: rotate(100deg);}
+    50%{ transform: rotate(80deg);}
+    75%{ transform: rotate(100deg);}
+    100%{ transform: rotate(120deg);}
+}
+
+
+
+/* ========================BIRD 3=========================== */
+
+
+
+
+.wing5 {
+    height: 15px;
+    width: .5px;
+    border: 1px solid black;
+    background: linear-gradient(to top, black, grey, black);
+    position: absolute;
+    top: 12rem;
+    right: 0.9vh;
+    transform: rotate(60deg);
+    border-radius: 100%;
+    animation: animation_wing5 1.1s infinite linear;
+
+}
+
+@keyframes animation_wing5 {
+    0%{ transform: rotate(60deg);}
+    25%{ transform: rotate(80deg);}
+    50%{ transform: rotate(100deg);}
+    75%{ transform: rotate(80deg);}
+    100%{ transform: rotate(60deg);}
+}
+
+
+.wing6 {
+    height: 15px;
+    width: .5px;
+    border: 1px solid black;
+    background: linear-gradient(to top, black, grey, black);
+    position: absolute;
+    top: 12rem;
+    right: 2.6vh;
+    transform: rotate(120deg);
+    border-radius: 100%;
+    animation: animation_wing6 1.1s infinite linear;
+    /* border-top-right-radius: 50%;
+    border-top-left-radius:  50%;
+    border-bottom-left-radius: 20vh;
+    border-bottom-right-radius: 20vh; */
+
+}
+
+@keyframes animation_wing6 {
+    0%{ transform: rotate(120deg);}
+    25%{ transform: rotate(100deg);}
+    50%{ transform: rotate(80deg);}
+    75%{ transform: rotate(100deg);}
+    100%{ transform: rotate(120deg);}
+}

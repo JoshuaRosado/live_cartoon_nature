@@ -1,0 +1,662 @@
+
+/*  ======================= TREE TRUNK ======================= */
+
+
+
+.trunk{
+    height: 8vh;
+    width: 25px;
+    position: absolute;
+    /* border-top-right-radius: 100px; */
+    top: 74vh;
+    left: 12.5vh;
+    background: linear-gradient(to top, rgb(94, 50, 9), rgb(99, 76, 9), rgb(99, 76, 9));
+    border: 2px dotted rgba(47, 25, 4, 0.598);
+
+}
+
+
+
+.branch1{
+    height: 35px;
+    width: 4px;
+    background: linear-gradient(to right, rgb(120, 74, 18), rgb(85, 62, 7)
+);
+    border: 2px dotted rgb(74, 44, 16);
+    transform: rotate(30deg);
+    position: absolute;
+    bottom: 62px;
+    border-top-left-radius: 35%;
+    border-top-right-radius: 45%;
+    right: -10px;
+}
+
+.branch2{
+    height: 26px;
+    width: 10px;
+    background: linear-gradient(to right, rgb(120, 74, 18), rgb(85, 62, 7)
+);
+    border: 2px dotted rgba(74, 44, 16, 0.424);
+    transform: rotate(0deg);
+    border-bottom: 0 solid rgb(60, 50, 10);
+    position: absolute;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 30%;
+    bottom: 66px;
+    right: 4px;
+}
+
+.branch3{
+    height: 26px;
+    width: 6px;
+    background: linear-gradient(to right, rgb(78, 51, 17), rgb(110, 79, 6)
+);
+    border: 2px dotted rgba(74, 44, 16, 0.803);
+    transform: rotate(140deg);
+    position: absolute;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    bottom: 60px;
+    right: 25px;
+}
+
+
+
+ /* ======================= LEAVES ======================= */
+
+.leaves{
+    height: 50px;
+    width: 160px;
+    position: absolute;
+    top: 68vh;
+    left: 4.5vh;
+    /* background: linear-gradient(to bottom ,greenyellow , rgba(0, 128, 0, 0.452), green ); */
+    /* border: 2px solid rgb(5, 61, 5); */
+    border-radius: 40%;
+
+
+}
+
+
+
+/*  ======================= INDIVIDUAL LEAF ======================= */
+.leaf{
+
+    height: 15px;
+    width: 10px;
+    background-color: green;
+    border: 3px solid rgb(5, 79, 5);
+    border-radius: 70% 10% 70% 10%;
+    animation: animation_leaf 10s infinite linear;
+}
+
+
+@keyframes animation_leaf{
+    0%{border: 3px solid rgb(5, 79, 5); transform: rotate(0deg);}
+    25%{border: 4px solid rgb(5, 49, 5); transform: rotate(20deg);}
+    50%{border: 4px solid rgba(5, 29, 5, 0.76) ;transform: rotate(40deg);}
+    75%{border: 4px solid rgba(5, 49, 5, 0.765) ;transform: rotate(15deg);}
+    100%{border: 3px solid rgb(5, 79, 5) ;transform: rotate(0deg);}
+}
+
+
+
+#leaf1{
+    position: absolute;
+    bottom: 80px;
+    right: 140px;
+}
+#leaf2{
+    position: absolute;
+    bottom: 80px;
+    right: 140px;
+}
+#leaf3{
+    position: absolute;
+    bottom: 80px;
+    right: 130px;
+}
+#leaf4{
+    position: absolute;
+    bottom: 85px;
+    right: 120px;
+}
+#leaf5{
+    position: absolute;
+    bottom: 86px;
+    right: 110px;
+}
+
+#leaf6{
+    position: absolute;
+    bottom: 87px;
+    right: 100px;
+}
+
+#leaf7{
+    position: absolute;
+    bottom: 87px;
+    right: 90px;
+}
+#leaf8{
+    position: absolute;
+    bottom: 87px;
+    right: 80px;
+}
+#leaf9{
+    position: absolute;
+    bottom: 86px;
+    right: 70px;
+}
+#leaf10{
+    position: absolute;
+    bottom: 85px;
+    right: 60px;
+}
+#leaf11{
+    position: absolute;
+    bottom: 85px;
+    right: 50px;
+}
+
+#leaf12{
+    position: absolute;
+    bottom: 83px;
+    right: 40px;
+}
+
+
+
+#leaf13{
+    position: absolute;
+    bottom: 80px;
+    right: 30px;
+}
+#leaf14{
+    position: absolute;
+    bottom: 78px;
+    right: 20px;
+}
+#leaf15{
+    position: absolute;
+    bottom: 75px;
+    right: 10px;
+}
+#leaf16{
+    position: absolute;
+    bottom: 68px;
+    right: 0px;
+}
+#leaf17{
+    position: absolute;
+    bottom: 60px;
+    right: 10px;
+}
+
+#leaf18{
+    position: absolute;
+    bottom: 63px;
+    right: 20px;
+}
+
+#leaf19{
+    position: absolute;
+    bottom: 65px;
+    right: 30px;
+}
+#leaf20{
+    position: absolute;
+    bottom: 67px;
+    right: 40px;
+}
+#leaf21{
+    position: absolute;
+    bottom: 69px;
+    right: 50px;
+}
+#leaf22{
+    position: absolute;
+    bottom: 70px;
+    right: 60px;
+}
+#leaf23{
+    position: absolute;
+    bottom: 70px;
+    right: 70px;
+}
+
+#leaf24{
+    position: absolute;
+    bottom: 70px;
+    right: 80px;
+}
+
+#leaf25{
+    position: absolute;
+    bottom: 70px;
+    right: 90px;
+}
+#leaf26{
+    position: absolute;
+    bottom: 71px;
+    right: 100px;
+}
+#leaf27{
+    position: absolute;
+    bottom: 70px;
+    right: 110px;
+}
+
+#leaf28{
+    position: absolute;
+    bottom: 69px;
+    right: 120px;
+}
+
+#leaf29{
+    position: absolute;
+    bottom: 68px;
+    right: 130px;
+}
+#leaf30{
+    position: absolute;
+    bottom: 66px;
+    right: 140px;
+}
+
+/* ------------------------------- */
+#leaf31{
+    position: absolute;
+    bottom: 49px;
+    right: 0px;
+}
+#leaf32{
+    position: absolute;
+    bottom: 49px;
+    right: 10px;
+}
+
+#leaf33{
+    position: absolute;
+    bottom: 48px;
+    right: 20px;
+}
+
+#leaf34{
+    position: absolute;
+    bottom: 49px;
+    right: 30px;
+}
+#leaf35{
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+}
+#leaf36{
+    position: absolute;
+    bottom: 51px;
+    right: 50px;
+}
+#leaf37{
+    position: absolute;
+    bottom: 51px;
+    right: 60px;
+}
+#leaf38{
+    position: absolute;
+    bottom: 52px;
+    right: 70px;
+}
+
+#leaf39{
+    position: absolute;
+    bottom: 52px;
+    right: 80px;
+}
+
+#leaf40{
+    position: absolute;
+    bottom: 52px;
+    right: 90px;
+}
+#leaf41{
+    position: absolute;
+    bottom: 53px;
+    right: 100px;
+}
+#leaf42{
+    position: absolute;
+    bottom: 53px;
+    right: 110px;
+}
+
+#leaf43{
+    position: absolute;
+    bottom: 51px;
+    right: 120px;
+}
+
+#leaf44{
+    position: absolute;
+    bottom: 50px;
+    right: 130px;
+}
+#leaf45{
+    position: absolute;
+    bottom: 50px;
+    right: 140px;
+}
+
+
+#leaf46{
+    position: absolute;
+    bottom: 34px;
+    right: 0px;
+}
+#leaf47{
+    position: absolute;
+    bottom: 35px;
+    right: 10px;
+}
+#leaf48{
+    position: absolute;
+    bottom: 37px;
+    right: 20px;
+}
+
+#leaf49{
+    position: absolute;
+    bottom: 38px;
+    right: 30px;
+}
+
+#leaf50{
+    position: absolute;
+    bottom: 38px;
+    right: 40px;
+
+}
+
+/* ============================= */
+
+#leaf51{
+    position: absolute;
+    bottom: 32px;
+    right: 50px;
+}
+#leaf52{
+    position: absolute;
+    bottom: 33px;
+    right: 60px;
+}
+
+#leaf53{
+    position: absolute;
+    bottom: 34px;
+    right: 70px;
+}
+
+#leaf54{
+    position: absolute;
+    bottom: 34px;
+    right: 80px;
+}
+#leaf55{
+    position: absolute;
+    bottom: 34px;
+    right: 90px;
+}
+
+
+#leaf56{
+    position: absolute;
+    bottom: 34px;
+    right: 100px;
+}
+#leaf57{
+    position: absolute;
+    bottom: 35px;
+    right: 110px;
+}
+#leaf58{
+    position: absolute;
+    bottom: 35px;
+    right: 120px;
+}
+
+#leaf59{
+    position: absolute;
+    bottom: 34px;
+    right: 130px;
+}
+
+#leaf60{
+    position: absolute;
+    bottom: 33px;
+    right: 140px;
+
+}
+
+
+/* ================== */
+
+
+#leaf61{
+    position: absolute;
+    bottom: 24px;
+    right: 0px;
+}
+#leaf62{
+    position: absolute;
+    bottom: 25px;
+    right: 10px;
+}
+
+#leaf63{
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+}
+
+#leaf64{
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+}
+#leaf65{
+    position: absolute;
+    bottom: 24px;
+    right: 40px;
+}
+
+
+#leaf66{
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+}
+#leaf67{
+    position: absolute;
+    bottom: 24px;
+    right: 60px;
+}
+#leaf68{
+    position: absolute;
+    bottom: 23px;
+    right: 70px;
+}
+
+#leaf69{
+    position: absolute;
+    bottom: 24px;
+    right: 80px;
+}
+
+#leaf70{
+    position: absolute;
+    bottom: 23px;
+    right: 90px;
+
+}
+
+/* ===== */
+
+#leaf71{
+    position: absolute;
+    bottom: 18px;
+    right: 100px;
+}
+#leaf72{
+    position: absolute;
+    bottom: 19px;
+    right: 110px;
+}
+
+#leaf73{
+    position: absolute;
+    bottom: 20px;
+    right: 120px;
+}
+
+#leaf74{
+    position: absolute;
+    bottom: 19px;
+    right: 130px;
+}
+#leaf75{
+    position: absolute;
+    bottom: 20px;
+    right: 140px;
+}
+
+
+#leaf76{
+    position: absolute;
+    bottom: 50px;
+    right: 148px;
+}
+#leaf77{
+    position: absolute;
+    bottom: 55px;
+    right: 150px;
+}
+#leaf78{
+    position: absolute;
+    bottom: 53px;
+    right: 140px;
+}
+
+#leaf79{
+    position: absolute;
+    bottom: 55px;
+    right: 135px;
+}
+
+#leaf80{
+    position: absolute;
+    bottom: 40px;
+    right: 150px;
+
+}
+
+
+
+
+
+
+
+/*  ======================= APPLES ======================= */
+.apple{
+    height: 10px;
+    width: 10px;
+    background: linear-gradient(to bottom, rgba(0, 128, 0, 0.43) , rgb(241, 79, 79) 25%, rgb(255, 58, 58)
+    );
+    border-radius: 50%;
+    border: 2px outset black;
+}
+
+/* @keyframes animation_apple{
+    0%{ position: relative; right: 50px;}
+    25%{ position: relative; right: 1px;}
+    50%{ position: relative; right: 1px;}
+    75%{ position: relative; right: 1px;}
+    100%{ position: relative; right: 1px;}
+} */
+
+#apple1{
+    position: absolute;
+    bottom: 2vh;
+    right: 15px;
+    animation: animation_apple1 15s infinite linear;
+}
+
+
+@keyframes animation_apple1{
+    0%{ position: absolute; right: 15px;}
+    25%{ position: absolute; right: 17px;}
+    50%{ position: absolute; right: 19px;}
+    75%{ position: absolute; right: 17px;}
+    100%{ position: absolute; right: 15px;}
+}
+
+#apple2{
+    position: absolute;
+    bottom: 2vh;
+    right: 40px;
+    animation: animation_apple2 15s infinite linear;
+}
+
+
+@keyframes animation_apple2{
+    0%{ position: absolute; right: 40px;}
+    25%{ position: absolute; right: 46px;}
+    50%{ position: absolute; right: 48px;}
+    75%{ position: absolute; right: 40px;}
+    100%{ position: absolute; right: 42.5px;}
+}
+
+#apple3{
+    position: absolute;
+    bottom: 2vh;
+    right: 95px;
+    animation: animation_apple3 15s infinite linear;
+}
+
+@keyframes animation_apple3{
+    0%{ position: absolute; right: 95px;}
+    25%{ position: absolute; right: 99px;}
+    50%{ position: absolute; right: 102px;}
+    75%{ position: absolute; right: 96.5px;}
+    100%{ position: absolute; right: 95px;}
+}
+
+#apple4{
+    position: absolute;
+    bottom: 1.5vh;
+    right: 100px;
+    animation: animation_apple4 15s infinite linear;
+}
+
+@keyframes animation_apple4{
+    0%{ position: absolute; right: 100px;}
+    25%{ position: absolute; right: 105px;}
+    50%{ position: absolute; right: 106px;}
+    75%{ position: absolute; right: 99px;}
+    100%{ position: absolute; right: 101px;}
+}
+
+#apple5{
+    position: absolute;
+    bottom: 2vh;
+    right: 120px;
+    animation: animation_apple5 15s infinite linear;
+}
+
+
+@keyframes animation_apple5{
+    0%{ position: absolute; right: 120px;}
+    25%{ position: absolute; right: 124px;}
+    50%{ position: absolute; right: 128px;}
+    75%{ position: absolute; right: 121px;}
+    100%{ position: absolute; right: 118px;}
+}
